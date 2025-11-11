@@ -1,0 +1,165 @@
+Q1:
+"""
+Write a Python program that acts like a Math Quiz Game.
+ The program should display a menu of different math challenges,
+ ask the user a question, get their answer, and then tell them if their answer is correct or not.
+The menu should be:
+1. Addition Challenge
+2. Subtraction Challenge
+3. Multiplication Challenge
+4. Division Challenge
+5. Number Comparison
+6. Exit
+
+Your program should:
+Display the menu once.
+
+
+Ask the user to pick a challenge (1–6).
+
+
+Take the required inputs (numbers).
+
+
+Ask the user for their answer to a math problem.
+
+
+Check if it’s correct or wrong, then display a message.
+
+
+
+
+
+Q2:
+"""
+Create a Python program that acts as a Math Puzzle Builder.
+The program should:
+Present 3–4 different math puzzles (addition, subtraction, multiplication, division, or comparing numbers).
+
+
+Ask the user to answer each puzzle.
+
+
+Keep track of correct answers and calculate a score at the end.
+
+
+Display a final message based on the score.
+
+
+
+Q3:
+
+"""
+Write a Python program that displays a menu of math operations.
+ The program should perform basic calculations and number-based tasks like addition, subtraction, multiplication,
+ squares, cubes, etc.
+Your program should:
+Display the following menu once:
+
+1. Basic Arithmetic (Add, Subtract, Multiply, Divide)
+2. Square and Cube of a Number
+3. Check if a Number is Even or Odd
+4. Find the Greater of Two Numbers
+5. Find the Area of Basic Shapes (Circle, Rectangle, Triangle)
+6. Exit
+
+
+Ask the user for their choice (1–6).
+
+
+Take the required inputs and perform the calculation.
+
+
+Display clear, labeled results.
+
+
+Do not use loops (run once and exit).
+
+
+
+📘 Math Concepts Used
+Concept
+Formula / Description
+Addition
+a + b
+Subtraction
+a - b
+Multiplication
+a × b
+Division
+a / b
+Square
+n²
+Cube
+n³
+Even/Odd
+If n % 2 == 0 → Even, else Odd
+Greater Number
+Compare a > b
+Area of Circle
+π × r²
+Area of Rectangle
+l × w
+Area of Triangle
+½ × b × h
+
+
+
+
+
+
+
+
+"""
+
+Q4:
+
+"""
+"Identify the Type of Triangle using Python"
+📝 Problem Statement:
+Write a Python program that accepts the lengths of three sides of a triangle and determines:
+Whether the given sides can form a valid triangle or not.
+
+
+If valid, determine whether the triangle is:
+
+
+Equilateral (all sides equal)
+
+
+Isosceles (two sides equal)
+
+
+Scalene (all sides different)
+
+
+📘 Conditions to Remember:
+A triangle is valid only if the sum of any two sides is greater than the third side.
+ That is:
+(a + b) > c
+(a + c) > b
+(b + c) > a
+
+💡 Hints:
+Take inputs for the three sides.
+
+
+First, check if the triangle is valid.
+
+
+If valid, use conditional statements to identify its type.
+
+
+Display appropriate messages for each case.
+
+
+📤 Expected Output Example:
+Enter side a: 5
+Enter side b: 5
+Enter side c: 8
+
+These sides can form a triangle.
+Type: Isosceles Triangle
+
+
+"""
